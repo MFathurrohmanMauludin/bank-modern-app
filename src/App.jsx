@@ -1,9 +1,12 @@
 import React from 'react'
+import styles from './style'
 
-function App() {
-  return (
-    <div>App</div>
-  )
-}
+const App = () => (
+  <div className="bg-primary text-white w-full overflow-hidden">
+    <div className={`${styles.paddingX}`}>
+      Navbar
+    </div>
+  </div>
+);
 
 export default App
